@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(255, 162, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tarjeta {
+    background: rgb(255, 255, 255);
+    width: 320px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 15px 10px 20px rgb(14, 14, 14);
+}
+
+.imagen {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid rgb(255, 162, 255);
+}
+
+h1 {
+    font-size: 22px;
+    margin: 10px 0 5px;
+    color: black;
+}
+
+.rol {
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    font-size: 14px;
+    color: dimgray;
+    margin-bottom: 15px;
+}
+
+.info li {
+    background: whitesmoke;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.boton{ display:inline-block; padding:12px 20px; background:rgb(255, 129, 160);
+    color:rgb(0, 0, 0); text-decoration:none; border-radius:30px;
+    transition:0.3s; animation:aparecer 1s ease; } .boton:hover{
+    background:lightseagreen; transform:scale(1.05); } @keyframes
+    aparecer{ from{ opacity:0; transform:translateY(20px); } to{
+    opacity:1; transform:translateY(0); } }
